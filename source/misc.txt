@@ -78,8 +78,8 @@ Querysets should be plural, instances should be singular.::
     posts = Post.objects.all()
     posts = Post.objects.filter(...)
     
-    post = Post.object.get(pk = 5)
-    post = Post.object.latest()
+    post = Post.objects.get(pk = 5)
+    post = Post.objects.latest()
     
 Using pdb remotely
 ------------------------
